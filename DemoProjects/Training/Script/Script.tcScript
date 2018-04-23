@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="ToolsQARegistrationPage" key="{4AFD8890-A12C-4741-B6D9-88912308FD0D}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="ToolsQARegistrationPage.js" />
+		</child>
+		<child name="TestSetup" key="{5D1DF4C3-5CFD-4082-B16F-74A6F5CC625D}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="TestSetup.js" />
+		</child>
+		<child name="Unit1" key="{F849EE07-B292-43DA-A757-71F3C3E5E982}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1.js" />
+		</child>
+		<child name="StoreQAPage" key="{D74DBA6E-6D31-4F9D-B2C5-BB150B648D33}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="StoreQAPage.js" />
+		</child>
+	</children>
+	<folders />
+</Root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{381ADF75-0D78-4239-BADF-ABA3F5838BF5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{674D3DD0-DFA7-476E-A300-34524D6884A9}">
+				<Data Description="Iterates through the specified browsers.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="http://store.demoqa.com/" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="30" />
+					</Parameters>
+					<Item>
+						<BrowserItem BrowserName="iexplore" />
+						<BrowserItem BrowserName="firefox" />
+					</Item>
+				</Data>
+				<Children>
+					<Operation Type="{16DC8186-4DEC-41AF-80A0-F8C655838299}">
+						<Data Description="Runs a test from the project." TestName="Login" FullName="Script\StoreQAPage - Login" Path="Script|StoreQAPage">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="username" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="LoginData" ColumnName="username" />
+								<Parameter Name="password" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="LoginData" ColumnName=" password" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{16DC8186-4DEC-41AF-80A0-F8C655838299}">
+						<Data Description="Runs a test from the project." TestName="Logout" FullName="Script\StoreQAPage - Logout" Path="Script|StoreQAPage" />
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{81BA7819-DB86-42FE-94DB-59FB53ED4CA1}" />
+	<Parameters Key="{CD45B66B-F526-498B-BE72-33CC490519F1}" />
+</Root>

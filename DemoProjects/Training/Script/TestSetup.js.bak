@@ -1,0 +1,9 @@
+﻿function GeneralEvents_OnStartTest(Sender)
+{
+  Log.Message("Start Test");
+}
+
+function GeneralEvents_OnStopTest(Sender)
+{
+  Log.Message("End Test");
+}

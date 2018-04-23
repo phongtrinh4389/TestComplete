@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="date" type="D" value="43210.4715217014"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Microsoft Internet Explorer"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="365"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="348"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;iexplore&quot;).Page(&quot;http://demoqa.com/registration/&quot;).Panel(&quot;page&quot;).Panel(&quot;content&quot;).Panel(&quot;primary&quot;).Article(&quot;post_49&quot;).Panel(0).Panel(0).Panel(&quot;pie_register_reg_form&quot;).Form(&quot;pie_regiser_form&quot;).Panel(4).Select(&quot;dropdown_7&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="43210.1799002083"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object bottom" type="I" value="635"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object top" type="I" value="605"/>
+					<Prp name="click point x" type="I" value="471"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="message" type="S" value="The combo box item 10 was selected."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43210.4715690162"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Browser(&quot;iexplore&quot;).Page(&quot;http://demoqa.com/registration/&quot;).Panel(&quot;page&quot;).Panel(&quot;content&quot;).Panel(&quot;primary&quot;).Article(&quot;post_49&quot;).Panel(0).Panel(0).Panel(&quot;pie_register_reg_form&quot;).Form(&quot;pie_regiser_form&quot;).Panel(4).Select(&quot;dropdown_7&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4AFD8890-A12C-4741-B6D9-88912308FD0D}"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="message" type="S" value="204"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43210.4715692477"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="message" type="S" value="Navigating to the http://demoqa.com/registration/ page."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43210.471546875"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: http://demoqa.com/registration/&#xA;&#xA;Sys.Browser(&quot;iexplore&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="220"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="348"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;iexplore&quot;).Page(&quot;http://demoqa.com/registration/&quot;).Panel(&quot;page&quot;).Panel(&quot;content&quot;).Panel(&quot;primary&quot;).Article(&quot;post_49&quot;).Panel(0).Panel(0).Panel(&quot;pie_register_reg_form&quot;).Form(&quot;pie_regiser_form&quot;).Panel(4).Select(&quot;dropdown_7&quot;)"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="43210.1798908796"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="object bottom" type="I" value="635"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object top" type="I" value="605"/>
+					<Prp name="click point x" type="I" value="471"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="message" type="S" value="The combo box item 'Albania' was selected."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43210.4715595833"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Browser(&quot;iexplore&quot;).Page(&quot;http://demoqa.com/registration/&quot;).Panel(&quot;page&quot;).Panel(&quot;content&quot;).Panel(&quot;primary&quot;).Article(&quot;post_49&quot;).Panel(0).Panel(0).Panel(&quot;pie_register_reg_form&quot;).Form(&quot;pie_regiser_form&quot;).Panel(4).Select(&quot;dropdown_7&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="message" type="S" value="Austria"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43210.4715690162"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>
